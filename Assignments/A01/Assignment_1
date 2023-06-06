@@ -1,0 +1,18 @@
+digraph G {
+    rankdir = TB
+    node0 [shape = record, label="<f0>  | <f1> 7 | <f2>  "]
+    node1 [shape = record, label="<f0>  | <f1> 1 | <f2> "]
+    node2 [shape = record, label="<f0>  | <f1> 2 | <f2> "]
+    node3 [shape = record, label="<f0>  | <f1> 3 | <f2> "]
+    node4 [shape = record, label="<f0>  | <f1> 8 | <f2> "]
+    node5 [shape = record, label="<f0>  | <f1> 9 | <f2> "]
+    node6 [shape = record, label="<f0>  | <f1> 10 | <f2> "]
+    
+    node0: f0 -> node3: f1
+    node3: f0 -> node1: f1
+    node3: f2 -> node2: f1
+    
+    node0: f2 -> node4: f1
+    node4: f2 -> node5: f1
+    node5: f2 -> node6: f1
+}
