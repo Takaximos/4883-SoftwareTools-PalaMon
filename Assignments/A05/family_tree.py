@@ -49,15 +49,12 @@ with open('family_data.csv', newline='\n') as csvfile:
     output_file.write("</TABLE>>];\n")
     if spouseId != "":
       output_file.write("node" + identif + " -> node" + spouseId + "[arrowhead=none headlabel=Married]\n")
-    if spouseId != "":
-      if parentId1 != "":
-        output_file.write("node" + parentId1 + " -> node" + identif + "\n")
-      if parentId2 != "":
-        output_file.write("node" + parentId2 + " -> node" + identif + "\n")
+    if parentId1 != "":
+      output_file.write("node" + parentId1 + " -> node" + identif + "\n")
+    if parentId2 != "":
+      output_file.write("node" + parentId2 + " -> node" + identif + "\n")
 
-    if parentNodeId != "":
-        if parentNodeId != "-1":
-          output_file.write("node" + identif + " -> node" + parentNodeId + "\n")
+
       
     temp_dict[name] = {"name": name, "birthYear": birthYear, "deathYear": deathYear, "gender": gender, "parentId1": parentId1, "parentId2": parentId2, "spouseID": spouseID}
 
