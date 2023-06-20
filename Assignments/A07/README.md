@@ -16,9 +16,9 @@ format that are being used to the specified url chosen, and if things such as "w
 3. Following this programming is the base of the project, doing as muc research and understanding al the different methods that could be done to make things easier or difficult.
 
 From there is just a test of programming skill and the end result should look similar to these:
- ![Screenshot](Assignments/A07/SS/Screenshot (172).png)
+ ![Screenshot]((https://github.com/Takaximos/4883-SoftwareTools-PalaMon/blob/main/Assignments/A07/SS/Screenshot%20(172).png))
  ![Model](https://github.com/Takaximos/4883-SoftwareTools-PalaMon/blob/main/Assignments/A07/SS/Screenshot%20(173).png)
- ![Model](Assignments/A07/SS/Screenshot (174).png)
- ![Model](Assignments/A07/SS/Screenshot (175).png)
- ![Model](Assignments/A07/SS/Screenshot (176).png)
- ![Model](Assignments/A07/SS/Screenshot (177).png)
+ ![Model](https://github.com/Takaximos/4883-SoftwareTools-PalaMon/blob/main/Assignments/A07/SS/Screenshot%20(174).png)
+ ![Model](https://github.com/Takaximos/4883-SoftwareTools-PalaMon/blob/main/Assignments/A07/SS/Screenshot%20(175).png)
+ ![Model](https://github.com/Takaximos/4883-SoftwareTools-PalaMon/blob/main/Assignments/A07/SS/Screenshot%20(176).png)
+ ![Model](https://github.com/Takaximos/4883-SoftwareTools-PalaMon/blob/main/Assignments/A07/SS/Screenshot%20(177).png)
