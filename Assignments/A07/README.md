@@ -17,7 +17,7 @@ format that are being used to the specified url chosen, and if things such as "w
 
 From there is just a test of programming skill and the end result should look similar to these:
  ![Screenshot](Assignments/A07/SS/Screenshot (172).png)
- ![Model]((https://github.com/Takaximos/4883-SoftwareTools-PalaMon/blob/main/Assignments/A07/SS/Screenshot%20(173).png))
+ ![Model](https://github.com/Takaximos/4883-SoftwareTools-PalaMon/blob/main/Assignments/A07/SS/Screenshot%20(173).png)
  ![Model](Assignments/A07/SS/Screenshot (174).png)
  ![Model](Assignments/A07/SS/Screenshot (175).png)
  ![Model](Assignments/A07/SS/Screenshot (176).png)
