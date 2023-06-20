@@ -1,5 +1,5 @@
 # Web-Scraping
-==========================================================================================
+===========================================================================================
 In this project we are tested in our skills not only in python coding, but an understanding of all the concepts revolving around it too.
 Some  of the main assets used are:
   - PySimpleGUI
