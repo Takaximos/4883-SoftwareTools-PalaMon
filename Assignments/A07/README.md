@@ -16,7 +16,7 @@ format that are being used to the specified url chosen, and if things such as "w
 3. Following this programming is the base of the project, doing as muc research and understanding al the different methods that could be done to make things easier or difficult.
 
 From there is just a test of programming skill and the end result should look similar to these:
- ![Model](Assignments/A07/SS/Screenshot (172).png)
+ ![Screenshot](Assignments/A07/SS/Screenshot (172).png)
  ![Model](Assignments/A07/SS/Screenshot (173).png)
  ![Model](Assignments/A07/SS/Screenshot (174).png)
  ![Model](Assignments/A07/SS/Screenshot (175).png)
