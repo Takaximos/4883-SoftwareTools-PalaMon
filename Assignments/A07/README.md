@@ -1,5 +1,5 @@
 # Web-Scraping
-========================================================================================
+==========================================================================================
 In this project we are tested in our skills not only in python coding, but an understanding of all the concepts revolving around it too.
 Some  of the main assets used are:
   - PySimpleGUI
@@ -9,7 +9,7 @@ Some  of the main assets used are:
   - ...
 This and including much more. Not only were we tested in our programming skills but our understanding with url's. This may include the
 format that are being used to the specified url chosen, and if things such as "www" or "https://" will affect the process (they do not)
-===========================================================================================
+=========================================================================================
 ## Steps
 1. Find a website with the data you are looking for and inspect the window format to see if scrapping is possible (ie.https://www.wunderground.com/history/daily/us/va/charlottesville/KCHO/date/2023-6-20)
 2. Next inspect the url and how other of the same data pages differ, in this case it is the Code "KCHO", country "us", state "va", and date "XXXX-XX-XX"(this will prove useful when programming).
