@@ -1,3 +1,1 @@
-# Assignment Description
 
-Join slack
