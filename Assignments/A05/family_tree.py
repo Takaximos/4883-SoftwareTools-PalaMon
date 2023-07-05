@@ -7,7 +7,7 @@ output_file.write("digraph G{\n")
 output_file.write("graph [pad=""0.5"", nodesep=""0.5"", ranksep=""2""];\n")
 output_file.write("node [shape=plain]\n")
 
-with open('family_data.csv', newline='\n') as csvfile:
+with open('family_tree_data.csv', newline='\n') as csvfile:
   reader = csv.DictReader(csvfile)
   for row in reader:
     temp_dict = {}
