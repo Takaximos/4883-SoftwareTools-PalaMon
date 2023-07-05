@@ -114,7 +114,7 @@ def buildWeatherURL(month=None, day=None, year=None, code=None, filter=None):
 
     url = f"{base_url}/{filter}/{code}/{'date'}/{year}-{month}-{day}"
     
-    # return the URL to pass to wunderground to get appropriate weather data
+    # return the URL to pass to get appropriate weather data
     return url
 if __name__=='__main__':
     
