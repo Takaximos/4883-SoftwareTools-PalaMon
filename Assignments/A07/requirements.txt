@@ -1,4 +1,0 @@
-pysimplegui
-bs4
-selenium
-selenium-wire
