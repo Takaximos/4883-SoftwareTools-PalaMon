@@ -1,8 +1,20 @@
 # Assignment Description
 
-## Software Tool Choice: Testsigma
+## Software Tool Choice: Clickup
 
-Testsigma is an AI-driven test automation platform that enables efficient and effective testing of web applications, mobile applications, and APIs. Testsigma provides a range of features and capabilities to streamline the software testing process and enhance test automation. Some examples that it can be used for may include test automation, cross-platform testing, test-case management, Test Execution and Reporting.
+Clickup is a comprehensive project management and productivity tool. One of its many uses are for work management software or project management software. It offers a wide range of features and capabilities to help individuals and teams organize and track their work effectively.It is  designed to help individuals and teams streamline their work, collaborate effectively, and stay organized.
+========================================================================================================================
+## What is a project management and productivity tool?
 
-UI
-![User-Interface](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/32006578423/original/8W2ZujxDEoPKDhzACSPj46gW79_p3SXnDQ.png?1576776375)
+They are tools that designed to assist individuals and teams in planning, organizing, and executing projects. Some of the common functionalities include:
+
+-  Task Management
+-  Project Planning
+-  Collaboration
+-  Communication
+-  Documentation
+
+
+
+[Clickup](https://clickup.com)
+![User-Interface](https://images.g2crowd.com/uploads/attachment/file/92387/App-Board-View-Color-Background.png)
