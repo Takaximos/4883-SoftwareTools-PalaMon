@@ -24,7 +24,7 @@ Just run Scraper.py and everything should run smoothly(hopefully)
 | ------------------------------------------------------------------------------------------------------- | ---------------------- |
 | [Scraper.py](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A07/Scraper.py) | Source code to generate svg(image)     |
 | [airport-codes.csv](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A07/airport-codes.csv) | Data          |
-| [gui.py](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A07/gui.py)) | GUI          |
+| [gui.py](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A07/gui.py) | GUI          |
 | [get_weather.py](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A07/get_weather.py) | Code to get weather table          |
 From there is just a test of programming skill and the end result should look similar to these:
  ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A07/SS/Screenshot%20(172).png)
