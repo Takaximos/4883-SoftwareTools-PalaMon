@@ -7,27 +7,22 @@ This program tested our knowldge on Fastapi and to see if we can add extensions 
 Just run api.py and it should provide a url
 
 
+| Link                                                                                                    | Description |
+| ------------------------------------------------------------------------------------------------------- | ---------------------- |
+| [api.py](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/api.py) | Source code to generate site     |
+| [funct.py](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/funct.py) | holds all functions used          |
 
-### Home
+## URL should look like the sort:
 
+### Home (/docs)
+![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(184).png)
 ### Countries
+![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(185).png)
 
-### Regions
-
-### Deaths
-
-### Countey Deaths
-
+### Country Deaths
+![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(186).png)
 ### Region Deaths
-
+![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(187).png)
 ### Country Year Deaths
+![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(188).png)
 
-### Region Year Deaths
-
-### Max Deaths
-
-### Min Deaths
-
-### Country with min deaths
-
-### Average Deaths
