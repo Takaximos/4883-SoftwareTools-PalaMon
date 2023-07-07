@@ -4,26 +4,26 @@ Just run api.py and it should provide a url
 
 
 
-###Home
+##Home
 
-###Countries
+##Countries
 
-###Regions
+##Regions
 
-###Deaths
+##Deaths
 
-###Countey Deaths
+##Countey Deaths
 
-###Region Deaths
+##Region Deaths
 
-###Country Year Deaths
+##Country Year Deaths
 
-###Region Year Deaths
+##Region Year Deaths
 
-###Max Deaths
+##Max Deaths
 
-###Min Deaths
+##Min Deaths
 
-###Country with min deaths
+##Country with min deaths
 
-###Average Deaths
+##Average Deaths
