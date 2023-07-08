@@ -39,7 +39,7 @@ Just run api.py and it should provide a url
 ### Min Year Between Deaths
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(197).png)
 ### Average Deaths
-![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(198).png)
+![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(199).png)
 
 
 
