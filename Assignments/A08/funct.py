@@ -9,6 +9,7 @@ with open("data.csv", 'r') as csvfile:
         if i == 0:
             i += 1
             continue
+        
         results.append(row)
         
         
@@ -102,28 +103,28 @@ def get_max_death(): # get max number of deaths
 def get_max_year_death(year1, year2):   # get max number of deaths from certain years
     global results
     temp = 0 
-    
+    date = ''
     for row in results:
         
-        if row[0][:4] > year1 and row[0][:4] < year2:
+        if int(row[0][:4]) > year1 and int(row[0][:4]) < year2:
             if row[7] > temp:
                 temp = row[7]
-                country = row[2]
                 date = row[0]
             
-    return country, date
+    return date
 
 def get_min_death(): #get min nimber of deaths
     global results
     temp = 0 
-    
+    date = ""
+    country = ""
     for row in results:
-        if row[7] < temp and row[7] == 0:
+        if int(row[7]) < temp or int(row[7]) == 0:
             
             place = row[2]
             
             if place != country:
-                temp = row[7]
+                temp = int(row[7])
                 country = row[2]
                 date = row[0]
             
