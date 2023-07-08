@@ -70,10 +70,8 @@ async def countries():
     
 @app.get("/get_regions/")
 async def regions():
-    regions = []
-    regions = get_regions()
     
-    return {"data":regions,"success":True,"message":"Regions"}
+    return {"data":get_regions(),"success":True,"message":"Regions"}
 
 @app.get("/get_deaths/")
 async def deaths():
@@ -81,8 +79,8 @@ async def deaths():
     
     return {"data":deaths,"success":True,"message":"Number of deaths"}
 
-@app.get("/get_count_deaths/{country}")
-async def count_deaths(country):
+@app.get("/get_count_deaths/country")
+async def count_deaths(country:str):
     try:
         deaths = get_count_deaths(country)
         
@@ -92,7 +90,7 @@ async def count_deaths(country):
 
 
 @app.get("/get_reg_deaths/{region}")
-async def reg_deaths(region):
+async def reg_deaths(region:str):
     try:
         deaths = get_reg_deaths(region)
         
@@ -101,7 +99,7 @@ async def reg_deaths(region):
         return{"success" : False, "message" : "Issues with the region implemented"}
 
 @app.get("/get_count_year_deaths/{country}/{year}")
-async def count_year_deaths(country, year):
+async def count_year_deaths(country:str, year:int):
     try:
         deaths = get_count_year_deaths(country, year)
         
@@ -109,8 +107,8 @@ async def count_year_deaths(country, year):
     except:
         return{"success" : False, "message" : "Issues with the country or year implemented"}
 
-@app.get("/get_reg_year_deaths/{reg}/{year}")
-async def reg_year_deaths(region, year):
+@app.get("/get_reg_year_deaths/{region}/{year}")
+async def reg_year_deaths(region:str, year:int):
     try:
         deaths = get_reg_year_deaths(region)
         
@@ -125,7 +123,7 @@ async def max_deaths():
     return {"data":deaths,"success":True,"message":"Maximum number of deaths"}
 
 @app.get("/get_max_year_deaths/")
-async def get_max_year_deaths(year1, year2):
+async def get_max_year_deaths(year1:int, year2:int):
     try:
         deaths, date = get_max_year_death(year1, year2)
         
@@ -140,7 +138,7 @@ async def _min_deaths():
     return {"data":deaths,"success":True,"message":"Minimum number of deaths"}
 
 @app.get("/get_min_year_deaths/")
-async def min_year_deaths(year1, year2):
+async def min_year_deaths(year1:int, year2:int):
     try:
         deaths, date = get_min_year_death(year1, year2)
         
