@@ -14,31 +14,31 @@ Just run api.py and it should provide a url
 
 ## URL should look like the sort:
 
-### Home (/docs)
+### Home (/)
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(184).png)
-### Countries
+### Countries("/get_countries/")
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(185).png)
-### Regions
+### Regions("/get_regions/")
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(189).png)
-### Deaths
+### Deaths("/get_deaths/")
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(190).png)
-### Country Deaths
+### Country Deaths("/get_count_deaths/country")
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(186).png)
-### Region Deaths
+### Region Deaths("/get_reg_deaths/{region}")
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(187).png)
-### Country Year Deaths
+### Country Year Deaths("/get_count_year_deaths/{country}/{year}")
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(191).png)
-### Region Year Deaths
+### Region Year Deaths("/get_reg_year_deaths/{region}/{year}")
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(192).png)
-### Max Deaths
+### Max Deaths("/get_max_deaths/")
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(193).png)
-### Min Deaths
+### Min Deaths("/get_min_deaths/")
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(194).png)
 ### Max Year Between Deaths
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(196).png)
-### Min Year Between Deaths
+### Min Year Between Deaths("/get_min_year_deaths/{year1}/{year2}")
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(197).png)
-### Average Deaths
+### Average Deaths("/get_avg_deaths/")
 ![Screenshot](https://github.com/Takaximos/4883-SoftwareTools-Palacios/blob/main/Assignments/A08/SS/Screenshot%20(199).png)
 
 
