@@ -2,14 +2,19 @@ import csv
 
 results = []
 
-with open("data.csv") as csvfile:
+with open("data.csv", 'r') as csvfile:
     reader = csv.reader(csvfile)
+    i = 0
     for row in reader: # each row is a list
+        if i == 0:
+            i += 1
+            continue
         results.append(row)
         
         
 def get_countries(): # get all of the countries in the csv file
     
+    global results
     countries = []
     
     for row in results:
@@ -19,25 +24,25 @@ def get_countries(): # get all of the countries in the csv file
     return countries
 
 def get_regions(): # get all of the regions in the csv file
-    
+    global results
     regions = []
     
     for row in results:
-        if row[2] not in regions:
+        if row[3] not in regions:
             regions.append(row[3])
             
     return regions
 
 def get_deaths(): # get total number of deaths
-    
+    global results
     deaths = 0
     
     for row in results:
-        deaths += int(row[6])
+        deaths += int(row[7])
     
     return deaths
 def get_count_deaths(country): # get the number of deaths of a specified country
-    
+    global results
     deaths = 0
     
     for row in results:
@@ -48,7 +53,7 @@ def get_count_deaths(country): # get the number of deaths of a specified country
     return deaths
 
 def get_reg_deaths(region): # get the number of deaths of a specified region
-    
+    global results
     deaths = 0
     
     for row in results:
@@ -60,7 +65,7 @@ def get_reg_deaths(region): # get the number of deaths of a specified region
     
     
 def get_count_year_deaths(country, year): # get the number of deaths of a specified country and specified year
-    
+    global results
     deaths = 0
     
     for row in results:
@@ -71,7 +76,7 @@ def get_count_year_deaths(country, year): # get the number of deaths of a specif
     return deaths
 
 def get_reg_year_deaths(region, year): # get the number of deaths of a specified region and year
-    
+    global results
     deaths = 0
     
     for row in results:
@@ -82,19 +87,20 @@ def get_reg_year_deaths(region, year): # get the number of deaths of a specified
     return deaths
 
 def get_max_death(): # get max number of deaths
-     
+    global results
     temp = 0 
+    country = ''
     
     for row in results:
         
-        if row[7] > temp:
-            temp = row[7]
+        if int(row[7]) > temp:
+            temp = int(row[7])
             country = row[2]
             
     return country
 
 def get_max_year_death(year1, year2):   # get max number of deaths from certain years
-     
+    global results
     temp = 0 
     
     for row in results:
@@ -108,7 +114,7 @@ def get_max_year_death(year1, year2):   # get max number of deaths from certain 
     return country, date
 
 def get_min_death(): #get min nimber of deaths
-     
+    global results
     temp = 0 
     
     for row in results:
@@ -124,7 +130,7 @@ def get_min_death(): #get min nimber of deaths
     return country, date
 
 def get_min_year_death(year1, year2):   # get min number of deaths from certain years
-     
+    global results
     temp = 0 
     place = "kirk"
     country = "terp"
@@ -145,7 +151,7 @@ def get_min_year_death(year1, year2):   # get min number of deaths from certain 
     return country, date
 
 def get_avg_deaths():   # get average number of deaths from certain years
-    
+    global results
     counter = 0
     death = 0
     
