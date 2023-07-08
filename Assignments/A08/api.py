@@ -79,7 +79,7 @@ async def deaths():
     
     return {"data":deaths,"success":True,"message":"Number of deaths"}
 
-@app.get("/get_count_deaths/country")
+@app.get("/get_count_deaths/{country}")
 async def count_deaths(country:str):
     try:
         deaths = get_count_deaths(country)
