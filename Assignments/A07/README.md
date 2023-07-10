@@ -19,6 +19,7 @@ format that are being used to the specified url chosen, and if things such as "w
 ##How to run
 Just run Scraper.py and everything should run smoothly(hopefully)
 (when it comes to choosing a city of the country you'll need to go to the csv file to find one that corresponds to the country)
+when choosing country find the corresponding city that matches with it in the csv file
 
 | Link                                                                                                    | Description |
 | ------------------------------------------------------------------------------------------------------- | ---------------------- |
